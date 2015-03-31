@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Custom Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/bootstrap.css"/>  
+        <link rel="stylesheet" href="css/main-cstm.css"/>
+        <!--jquery-->
+        <script type="text/javascript" src="js/jquery/jquery.js"></script>
+        <script type="text/javascript" src="js/main-cstm.js"></script>
+    </head>
+    <body>
+        <div class="container" id="lg-screens">
+            <h2>Contact us</h2>
+            <div class="row">
+                <div class="span6">
+                    <form class="form-horizontal">
+                        <div class="row">
+                            <div class="span3">
+                                <label class="label" for="name">Name:</label>
+                                <input type="text" id="name" placeholder="Name:"/>
+                            </div>
+                            <div class="span3">
+                                <label class="label" for="email">E-mail:</label>
+                                <input type="text" id="email" placeholder="E-mail:"/>
+                            </div>
+                            <div class="span6">
+                                <label class="label" for="website">Website:</label>
+                                <input type="text" class="input-block-level" id="website" placeholder="Website:"/>
+                            </div>
+                            <div class="span6">
+                                <label class="label">Subject:</label>
+                                <div class="select-emul">
+                                    <span class="emul-select-text">Select your subject.....</span>
+                                    <span class="emul-btn"><i class="icon-chevron-down pos"></i></span>
+                                </div>
+                                <div class="opt-emul">
+                                    <span id="sub-one">Subject 1</span>
+                                    <span id="sub-two">Subject 2</span>
+                                    <span id="sub-three">Subject 3</span>
+                                    <span id="sub-four">Subject 4</span>
+                                    <span id="sub-five">Subject 5</span>
+                                </div>
+                            </div>
+                            <div class="span6">                                
+                                <div class="emul-text-area offset-top">
+                                    <textarea class="cstm-text-area" placeholder="Type your message...."></textarea>
+                                </div>                       
+                            </div>
+                        </div>                       
+                        <div class="row offset-top">
+                            <div class="span6">
+                                <button class="btn"><i class="icon-star"></i>&nbsp;&nbsp;Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="span5 border">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>               
+                </div>                
+            </div>              
+        </div>
+        <!--smaller screens-->
+        <div class="padded" id="sml-screens">
+            <h3>Contact us</h3>
+            <form class="form-horizontal">  
+                <label class="label">Name:</label>
+                <input type="text" placeholder="Name:" class="input-block-level" id="sml-name"/>
+                <label class="label">E-mail:</label>
+                <input type="text" placeholder="E-mail:" class="input-block-level" id="sml-email"/>
+                <label class="label">Website:</label>
+                <input type="text" placeholder="Website:" class="input-block-level" id="sml-website"/>
+                <label class="label">Subject:</label>
+                <select class="input-block-level">
+                    <option selected>Select your subject.....</option>
+                    <option>Subject 1</option>
+                    <option>Subject 2</option>
+                    <option>Subject 3</option>
+                    <option>Subject 4</option>
+                    <option>Subject 5</option>                    
+                </select>
+                <div class="offset-top">
+                    <textarea placeholder="Type your messge...." class="input-block-level" style="height: 150px;"></textarea>
+                </div>
+                <p>
+                    <button class="btn offset-top"><i class="icon-star"></i>&nbsp;&nbsp;Submit</button>
+                </p>
+            </form>
+            <div class="border padded">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>     
+            </div>
+        </div>  
+    </body>
+</html>
